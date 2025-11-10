@@ -9,7 +9,7 @@ import React from "react";
 
 const RESUME_URL = "/resume/Andrew_Resume.pdf"; // Resume in public/resume folder
 const HEADSHOT_URL = "/photos/headshot.jpg"; // place headshot at public/photos/headshot.jpg
-const ABOUT_VIDEO_URL = "https://www.youtube.com/embed/VIDEO_ID"; // replace with your actual About Me video URL
+const ABOUT_VIDEO_URL = "https://www.youtube.com/embed/gPBcYSvU0hw"; // replace with your actual About Me video URL
 
 const projects = [
     {
