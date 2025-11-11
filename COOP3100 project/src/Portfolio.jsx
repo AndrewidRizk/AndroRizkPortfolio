@@ -18,7 +18,7 @@ const projects = [
       period: "2024",
       description:
         "Developed an app predicting Toronto house prices with ~85% accuracy using a Random Forest model, allowing users to explore predictions by neighborhood and building type.",
-      role: "Machine Learning & Full-Stack Developer",
+      role: "Machine Learning & Full-Stack Developer (Personal project)",
       skills: [
         "Python",
         "Flask",
@@ -43,7 +43,7 @@ const projects = [
       period: "2024",
       description:
         "Programmed a custom object detection model using Faster R-CNN achieving ~70% accuracy on the COCO dataset to detect and classify objects in complex images; deployed via AKS with assets on AWS S3.",
-      role: "ML Engineer",
+      role: "ML Engineer (Personal project)",
       skills: [
         "Python",
         "PyTorch",
@@ -69,7 +69,7 @@ const projects = [
       period: "2024 — Present",
       description:
         "Team project serving 5,000+ students with live availability of classrooms for studying, leveraging official resources.",
-      role: "Full-stack Engineer (team of 3)",
+      role: "Full-stack Engineer — Group project (team of 3)",
       skills: [
         "React",
         "Next.js",
@@ -97,7 +97,7 @@ const projects = [
       period: "2024",
       description:
         "Repurposed laptops into Linux servers, exposed services securely, and automated builds to learn infra at home.",
-      role: "DevOps / Platform tinkerer",
+      role: "DevOps / Platform tinkerer (Personal project)",
       skills: ["UNIX/Linux", "TCL", "Shell", "AWS Lambda", "Jenkins", "SSL/TLS"],
       outcomes: [
         "Hosted APIs & databases with secure TLS",
@@ -113,7 +113,7 @@ const projects = [
       period: "2023",
       description:
         "Implemented multi-algorithm CPU scheduling (SJF, EDF, FCFS, RR, Priority) to simulate kernel job control.",
-      role: "Systems programmer (solo)",
+      role: "Systems programmer (solo) — Personal project",
       skills: ["C", "Data Structures", "Algorithms"],
       outcomes: [
         "Correctness and fairness across workloads",
@@ -326,6 +326,9 @@ const Resume = () => (
 
 const Projects = () => (
   <Section id="projects" title="Projects">
+    <p className="text-gray-700 mb-4">
+      I enjoy creating personal projects to learn and apply new skills. Projects I built during co-op roles are not included here to respect company privacy agreements.
+    </p>
     <div className="grid md:grid-cols-2 gap-6">
       {projects.map((p) => (
         <article key={p.title} className="rounded-2xl border p-5 hover:shadow">
