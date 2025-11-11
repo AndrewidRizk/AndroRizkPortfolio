@@ -272,6 +272,12 @@ const Hero = () => (
     <div className="mx-auto max-w-5xl px-6 pb-10">
 
       <div className="mt-4">
+        <p className="font-medium text-gray-800">Why I Like Computer Science:</p>
+        <p className="mt-2 text-gray-700 leading-relaxed">
+          I enjoy computer science because it gives me the freedom to build, experiment, and solve problems in many different areas. The foundational skills I learned, including algorithms, programming, and system design which opened doors for me to explore big data, backend development, DevOps, machine learning, and more. I like how CS combines creativity with logic, letting me turn abstract ideas into something real and useful. There’s always something new to learn, and I feel motivated knowing that the tools and systems I build can meaningfully impact others.
+        </p>
+      </div>
+      <div className="mt-4">
         <p className="font-medium text-gray-800">Most Rewarding Co-op:</p>
         <p className="mt-1 text-gray-700">
           <a href="#experience" className="underline hover:text-gray-900 font-medium">
@@ -420,7 +426,7 @@ export default function Portfolio() {
       </main>
       <footer className="border-t">
         <div className="mx-auto max-w-5xl px-6 py-10 text-sm text-gray-600">
-          © {new Date().getFullYear()} Andro Rizk — Built with React & Tailwind
+          © {new Date().getFullYear()} Andro Rizk 
         </div>
       </footer>
     </div>
